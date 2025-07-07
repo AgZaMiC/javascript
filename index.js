@@ -1,8 +1,7 @@
-const first = 10;
-alert(first);
+const number = Number(prompt("Son kiriting:"));
 
-const second = 20;
-alert (second);
-
-const third = 30;
-alert(third)
+if (number > 0) {
+    alert("Siz kiritgan son musbat.")
+} else {
+    alert("Siz kiritgan son manfiy.")
+}
